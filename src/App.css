@@ -27,16 +27,31 @@
   border: none;
   font-size: 1.5rem;
 }
+.counter > button:hover{
+  font-size: 2rem;
+  
+}
+.counter > button:focus{
+  outline: none;
+}
 .counter--minus{
-  background-color: red;
+  background-color: rgb(214, 55, 55);
   color: white;
   margin-right: -20px;
   z-index: 1;
 }
+.counter--minus:hover{
+  background-color: rgb(250, 2, 2);
+
+}
 .counter--plus{
-  background-color: green;
+  background-color: rgb(25, 190, 25);
   color: white;
   margin-left: -20px;
+}
+.counter--plus:hover{
+  background-color: green;
+
 }
 @media (max-width:576px){
   .counter--heading{
